@@ -6,8 +6,25 @@
     <title>Document</title>
     <style>
         body div {
-            border: 2px solid black;
+            border: 2px solid rgb(120, 3, 3);
             padding: 20px;
+            background-color: rgb(232, 111, 111);
+            color: rgb(255, 240, 240);
+            border-radius: 40px;
+        }
+
+        body {
+            background-color: rgb(173, 47, 47);
+        }
+
+        body div p input{
+            background-color: rgb(255, 196, 196);
+            border: 2px solid rgb(120, 3, 3);
+        }
+
+        body div button {
+            background-color: rgb(255, 196, 196);
+            border: 2px solid rgb(120, 3, 3);
         }
     </style>
 </head>
@@ -25,7 +42,7 @@
 
         <p>Carpet Price (per sq. ft.) <input id="num3-in" type="number"></p>
 
-        <button>CALCULATE</button>
+        <button id="btn">CALCULATE</button>
 
         <hr>
 
@@ -33,6 +50,6 @@
 
     </div>
 
-    
+    <script src="main.js"></script>
 </body>
 </html>
